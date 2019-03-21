@@ -1,0 +1,306 @@
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #333;
+	background-image: url("../images/stucco/stucco.png");
+}
+
+.site-container {
+	width: 900px;
+	margin: 0 auto;
+}
+
+.header nav {
+	background-color: #222;
+	color: #999;
+	height: 30px;
+}
+
+.header nav ul {
+	float: right;
+	margin: 5px 15px;
+}
+
+.header nav ul li {
+	display: inline;
+	margin: 0 15px;
+}
+
+.header nav ul li a {
+	text-decoration: none;
+	color: #999;
+	font-size: 12px;
+}
+
+.header nav ul li a:hover {
+	color: #fff;
+}
+
+.main-nav nav {
+	background-color: #f8f8f8;
+	height: 30px;
+	border: 1px solid #e7e7e7;
+}
+
+.main-nav nav ul {
+	float: left;
+	padding-left: 0;
+	margin: 6px 0;
+}
+
+.main-nav nav ul li {
+	display: inline;
+	margin: 0 15px;
+}
+
+.main-nav nav ul li a {
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: bold;
+	color: #777
+}
+
+.main-nav nav ul li a:hover {
+	text-decoration: underline;
+}
+
+.main-content {
+	min-height: 900px;
+	background-color: #fff;
+	padding: 10px;
+	border: 1px solid #e7e7e7;
+	margin-top: 15px;
+}
+.main-content#form {
+	height: 100%;
+}
+
+.page-title h3 {
+	margin: 5px 5px 5px 0;
+}
+
+.page-title p {
+	margin: 5px 0 15px 0;
+	font-size: 14px;
+
+}
+.product-area {
+	margin-bottom: 40px;
+}
+.product-area img {
+	float: left;
+	width: 300px;
+	margin-right: 20px;
+	max-height: 500px;
+	clear: both;
+}
+.product-area p {
+	margin-left: 0px;
+	overflow: auto;
+	display: block;
+}
+
+.product-area p.desc-text {
+	font-size: 13px;
+	line-height: 18px;
+	letter-spacing: 0.3px;
+	min-height: 180px;
+}
+.product-area p.price {
+	color: red;
+	font-weight: bold;
+	font-size: 13px;
+	margin: 20px 0;
+}
+
+.product-area .img-holder {
+	float: left;
+    width: 300px;
+    margin-right: 20px;
+    clear: both;
+    min-height: 500px;
+    max-height: 500px;
+}
+
+.product-area .purchase-btn-container {
+	margin: 20px 0px 20px 0px;
+	overflow: auto;
+	display: block;
+	border: 1px solid #e7e7e7;
+	height: 52px;
+}
+
+.product-area .purchase-btn-container button {
+	width: 42%;
+	height: 32px;
+	margin: 10px 20px;
+	border: 1px solid #b7b7b7;
+	border-radius: 4px;
+	background-image: linear-gradient(#fff, #f3f1f1);
+}
+
+.product-area .purchase-btn-container button a {
+	margin-top: 15px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.product-details {
+	margin-left: 0px;
+	overflow: auto;
+	display: block;
+}
+
+.product-details h4 {
+	border-bottom: 1px solid #e7e7e7;
+}
+
+.product-details table {
+	font-size: 13px;
+}
+
+.product-details table tr {
+	height: 22px;
+}
+.product-details table th {
+	text-align: left;
+	font-weight: bold;
+
+}
+
+.similar-products {
+	margin: 10px 0 30px 0;
+}
+
+.similar-products h4 {
+	border-bottom: 1px solid #e7e7e7;
+}
+
+.product-slot {
+	width: 23%;
+	border: 1px solid #e7e7e7;
+	display: block;
+	float: left;
+	margin-right: 15px;
+}
+.product-slot img {
+	display: block;
+	margin: 0 auto;
+	padding: 5px;
+}
+
+#similar-img-1 {
+	height: 130px;
+}
+
+.product-slot a {
+	font-size: 10px;
+	margin: 0 0 5px 5px;
+}
+
+.product-slot .button-container {
+	margin-top: 5px;
+}
+
+.product-slot .button-container button {
+	width: 30%;
+	margin: 2px 5px;
+	border: 1px solid #b7b7b7;
+	border-radius: 4px;
+	background-image: linear-gradient(#fff, #f3f1f1);
+}
+
+.product-slot .button-container button a {
+	text-decoration: none;
+	color: #777;
+}
+
+#color-selector {
+	width: 140px;
+}
+
+#filler {
+	width: 30px;
+	height: 10px;
+}
+
+footer {
+	height: 30px;
+	width: 100%;
+	background-color: #222;
+	padding: 5px
+}
+footer p.footer {
+	text-align: center;
+	font-size: 11px;
+	margin: 10px;
+	color: #999;
+}
+
+.form-content h4 {
+	border-bottom: 1px solid #e7e7e7;
+
+}
+
+.form-content table tr th {
+	text-align: left;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.form-content input {
+	border: 1px solid #999;
+	border-radius: 4px;
+	background-color: #e7e7e7;
+	height: 20px;
+}
+
+.form-content table tr td #name {
+	width: 200px;
+	margin-right: 40px;
+}
+
+.form-content table tr td #email {
+	width: 500px;
+}
+.form-content table tr td #address {
+	width: 600px;
+}
+
+.form-content select {
+	border: 1px solid #999;
+	border-radius: 4px;
+	background-color: #e7e7e7;
+	height: 20px;
+}
+.form-content input.slider {
+	width: 300px;
+}
+#termsbox {
+	display: block;
+	float: left;
+	margin-top: 10px;
+}
+p.terms {
+	margin-left: 15px;
+	font-size: 12px;
+	font-weight: bold;
+	display: block;
+	float: left;
+}
+.minimal p {
+	margin-left: 100px;
+}
+
+input.sign-up {
+	background-image: url("../img/button_ok.png");
+	background-repeat: no-repeat;
+	margin-left: 30px;
+	margin-top: -15px;
+	width: 120px;
+	height: 32px;
+	float: left;
+	font-size: 12px;
+	text-align: right;
+	border-radius: 0;
+
+}

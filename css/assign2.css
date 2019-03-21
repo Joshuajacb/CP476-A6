@@ -1,0 +1,21 @@
+.terms-of-service {
+	height: 100px;
+	padding-top: 20px;
+}
+#tos-msg {
+	border: none;
+	font-weight: bold;
+	color: #8c2c2c;
+	font-size: 24px;
+}
+.hidden {
+	visibility: hidden;
+}
+
+.error-set {
+	border: 2px solid red!important;
+	background-color: #ef8383!important;
+	background-image: url('../img/error.png')!important;
+	background-position: right;
+	background-repeat: no-repeat;
+}
